@@ -1,0 +1,5 @@
+﻿Topic: Python Learning
+
+Python is a programming language used for automation, web development, and data analysis.
+FastAPI is a Python framework for building APIs.
+Pandas is a Python library for data manipulation and analysis.

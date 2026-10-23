@@ -1,0 +1,23 @@
+
+Project: Personal AI Assistant
+
+Goal:
+Build a local AI assistant that answers questions using my own documents.
+
+Technology:
+- Ollama runs language models locally.
+- Qwen3 generates answers.
+- nomic-embed-text converts text into numerical embeddings.
+- ChromaDB stores embeddings and retrieves relevant text.
+- FastAPI will provide an API for the assistant.
+
+How RAG works:
+1. Read documents and split them into smaller text chunks.
+2. Convert each chunk into an embedding.
+3. Store the embeddings and text in ChromaDB.
+4. Convert the user's question into an embedding.
+5. Retrieve the most relevant chunks.
+6. Give the retrieved context to Qwen3 to generate an answer.
+
+Current progress:
+Ollama is installed, both models are available, and Python can generate answers and embeddings successfully.

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+ollama
+chromadb
+streamlit
+python-multipart
+pypdf
+pymupdf
+pytesseract
+Pillow

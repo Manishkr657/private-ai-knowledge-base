@@ -1,0 +1,5 @@
+Topic: Data Science
+
+Data science combines statistics, programming, and domain knowledge to extract insights from data.
+NumPy is a Python library for numerical computing.
+Scikit-learn provides tools for machine learning.

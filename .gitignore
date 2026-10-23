@@ -1,0 +1,35 @@
+cat > .gitignore <<'EOF'
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local documents and uploaded files
+data/user_documents/
+data/uploads/
+
+# Local vector database and generated data
+chroma/
+chroma_db/
+data/chroma/
+data/chroma_db/
+
+# Logs
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+EOF
